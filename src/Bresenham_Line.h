@@ -8,6 +8,7 @@ private:
 public:
     Bresenham_Line(int x0,int y0,int x1,int y1);
     QVector< QPair<int,int> > drawLine();
+    void swap(int* a,int* b);
 };
 
 #endif // BRESENHAM_LINE_H

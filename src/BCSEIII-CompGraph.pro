@@ -13,13 +13,22 @@ SOURCES += \
     mainwindow.cpp \
     my_label.cpp \
     DDALine.cpp \
-    Bresenham_Line.cpp
+    Bresenham_Line.cpp \
+    polar_circle.cpp \
+    bresenham_circle.cpp \
+    bresenham_ellipse.cpp \
+    parametric_circle.cpp
 
 HEADERS += \
     mainwindow.h \
     my_label.h \
     DDA_Line.h \
-    Bresenham_Line.h
+    Bresenham_Line.h \
+    polar_circle.h \
+    bresenham_circle.h \
+    parametric_circle.h \
+    bresenham_ellipse.h \
+    Polygon.h
 
 FORMS += \
     mainwindow.ui

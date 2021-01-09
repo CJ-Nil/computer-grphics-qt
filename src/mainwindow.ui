@@ -14,16 +14,16 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background:rgb(85, 255, 255);
+   <string notr="true">background:rgb(170, 170, 127);
 color:rgb(85, 0, 255)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>1260</x>
-      <y>10</y>
-      <width>20</width>
+      <x>1250</x>
+      <y>0</y>
+      <width>16</width>
       <height>771</height>
      </rect>
     </property>
@@ -45,8 +45,8 @@ background-color: rgb(0, 170, 0);</string>
    <widget class="QPushButton" name="draw">
     <property name="geometry">
      <rect>
-      <x>1340</x>
-      <y>480</y>
+      <x>1280</x>
+      <y>250</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -59,8 +59,8 @@ background-color: rgb(0, 170, 0);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>Draw</string>
@@ -69,8 +69,8 @@ color:rgb(255, 255, 255)</string>
    <widget class="QPushButton" name="reset">
     <property name="geometry">
      <rect>
-      <x>1340</x>
-      <y>520</y>
+      <x>1280</x>
+      <y>290</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -83,8 +83,8 @@ color:rgb(255, 255, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>reset</string>
@@ -127,8 +127,8 @@ color:rgb(255, 255, 255)</string>
    <widget class="QCheckBox" name="show_axes">
     <property name="geometry">
      <rect>
-      <x>1340</x>
-      <y>330</y>
+      <x>1280</x>
+      <y>160</y>
       <width>91</width>
       <height>22</height>
      </rect>
@@ -152,9 +152,9 @@ color:rgb(255, 255, 255)</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>10</y>
-      <width>161</width>
+      <x>1280</x>
+      <y>0</y>
+      <width>111</width>
       <height>20</height>
      </rect>
     </property>
@@ -166,16 +166,16 @@ color:rgb(255, 255, 255)</string>
      </font>
     </property>
     <property name="text">
-     <string>Current Mouse Postion</string>
+     <string>Current position</string>
     </property>
    </widget>
    <widget class="QLabel" name="mouse_position">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>40</y>
-      <width>161</width>
-      <height>31</height>
+      <x>1270</x>
+      <y>20</y>
+      <width>131</width>
+      <height>25</height>
      </rect>
     </property>
     <property name="font">
@@ -199,9 +199,9 @@ color:rgb(255, 0, 255)</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>80</y>
-      <width>161</width>
+      <x>1410</x>
+      <y>0</y>
+      <width>111</width>
       <height>16</height>
      </rect>
     </property>
@@ -213,16 +213,16 @@ color:rgb(255, 0, 255)</string>
      </font>
     </property>
     <property name="text">
-     <string>Locked Mouse Position</string>
+     <string>Locked Position</string>
     </property>
    </widget>
    <widget class="QLabel" name="locked_position">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>100</y>
-      <width>161</width>
-      <height>31</height>
+      <x>1400</x>
+      <y>20</y>
+      <width>121</width>
+      <height>25</height>
      </rect>
     </property>
     <property name="font">
@@ -246,9 +246,9 @@ color:rgb(255, 0, 255)</string>
    <widget class="QPushButton" name="set_p1">
     <property name="geometry">
      <rect>
-      <x>1310</x>
-      <y>180</y>
-      <width>91</width>
+      <x>1280</x>
+      <y>50</y>
+      <width>101</width>
       <height>31</height>
      </rect>
     </property>
@@ -260,8 +260,8 @@ color:rgb(255, 0, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>Set Point 1</string>
@@ -273,9 +273,9 @@ color:rgb(255, 255, 255)</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>1310</x>
-      <y>260</y>
-      <width>91</width>
+      <x>1280</x>
+      <y>90</y>
+      <width>101</width>
       <height>31</height>
      </rect>
     </property>
@@ -287,8 +287,8 @@ color:rgb(255, 255, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>Set Point 2</string>
@@ -297,8 +297,8 @@ color:rgb(255, 255, 255)</string>
    <widget class="QLabel" name="p1_label">
     <property name="geometry">
      <rect>
-      <x>1380</x>
-      <y>140</y>
+      <x>1410</x>
+      <y>50</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -324,8 +324,8 @@ color:rgb(255, 0, 255)</string>
    <widget class="QLabel" name="p2_label">
     <property name="geometry">
      <rect>
-      <x>1390</x>
-      <y>220</y>
+      <x>1410</x>
+      <y>90</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -352,7 +352,7 @@ color:rgb(255, 0, 255)</string>
     <property name="geometry">
      <rect>
       <x>1410</x>
-      <y>260</y>
+      <y>130</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -365,8 +365,8 @@ color:rgb(255, 0, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>Unset Point 2</string>
@@ -378,8 +378,8 @@ color:rgb(255, 255, 255)</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>1410</x>
-      <y>180</y>
+      <x>1280</x>
+      <y>130</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -392,8 +392,8 @@ color:rgb(255, 255, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
-color:rgb(255, 255, 255)</string>
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
     </property>
     <property name="text">
      <string>Unset Point 1</string>
@@ -402,10 +402,10 @@ color:rgb(255, 255, 255)</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>1340</x>
-      <y>300</y>
+      <x>1420</x>
+      <y>160</y>
       <width>61</width>
-      <height>25</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -422,9 +422,9 @@ color:rgb(255, 255, 255)</string>
    <widget class="QComboBox" name="drawCombo">
     <property name="geometry">
      <rect>
-      <x>1320</x>
-      <y>360</y>
-      <width>151</width>
+      <x>1270</x>
+      <y>220</y>
+      <width>241</width>
       <height>22</height>
      </rect>
     </property>
@@ -434,6 +434,9 @@ color:rgb(255, 255, 255)</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
     </property>
     <item>
      <property name="text">
@@ -452,7 +455,22 @@ color:rgb(255, 255, 255)</string>
     </item>
     <item>
      <property name="text">
-      <string>Bresenham Circle Drawing</string>
+      <string>Bresenham circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Polar circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parametric circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bresenham Ellipse</string>
      </property>
     </item>
    </widget>
@@ -487,7 +505,7 @@ color:rgb(255, 255, 255)</string>
     <property name="geometry">
      <rect>
       <x>1400</x>
-      <y>300</y>
+      <y>180</y>
       <width>105</width>
       <height>24</height>
      </rect>
@@ -507,15 +525,15 @@ color:rgb(170, 255, 255)</string>
    <widget class="QLabel" name="timer_label_1">
     <property name="geometry">
      <rect>
-      <x>1310</x>
-      <y>400</y>
-      <width>211</width>
+      <x>1280</x>
+      <y>660</y>
+      <width>231</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -530,15 +548,15 @@ color:rgb(170, 255, 255)</string>
    <widget class="QLabel" name="timer_label_2">
     <property name="geometry">
      <rect>
-      <x>1300</x>
-      <y>440</y>
-      <width>221</width>
+      <x>1280</x>
+      <y>690</y>
+      <width>231</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -553,9 +571,9 @@ color:rgb(170, 255, 255)</string>
    <widget class="QComboBox" name="color_box">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>600</y>
-      <width>91</width>
+      <x>1280</x>
+      <y>200</y>
+      <width>101</width>
       <height>21</height>
      </rect>
     </property>
@@ -585,10 +603,10 @@ color:rgb(170, 255, 255)</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>569</y>
-      <width>141</width>
-      <height>31</height>
+      <x>1280</x>
+      <y>180</y>
+      <width>91</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -602,6 +620,559 @@ color:rgb(170, 255, 255)</string>
      <string>select color</string>
     </property>
    </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>250</y>
+      <width>111</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1,0">
+     <item row="2" column="0">
+      <widget class="QSpinBox" name="radius_box">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QSpinBox" name="radius_box_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="radius_label">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Radius</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>330</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_np">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>350</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Add point</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="draw_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Draw Polygon</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="drawCombo_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>430</y>
+      <width>241</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Filling type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flood fill</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scan fill</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boundary fill</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="draw_3">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Fill</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="unset_np">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>350</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Remove Points</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transform_b">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>500</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Transform</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="transform_m">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>500</y>
+      <width>121</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Transformation</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scalling</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Translation</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rotation</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Reflection</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sharing</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDoubleSpinBox" name="scale_y">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>470</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,0,0);
+color:rgb(170, 255, 255)</string>
+    </property>
+    <property name="decimals">
+     <number>1</number>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.200000000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="scale_x">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>470</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,0,0);
+color:rgb(170, 255, 255)</string>
+    </property>
+    <property name="decimals">
+     <number>1</number>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.200000000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="clip_type">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>590</y>
+      <width>121</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Clipping</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Line clipping</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Polygon clipping</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="clipping">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>620</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>CLIP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="draw_window">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>560</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Draw Window</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="window_point">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>560</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Window Point</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>450</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>540</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="unset_window">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>590</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0, 170, 255);
+color:rgb(0, 0, 127)</string>
+    </property>
+    <property name="text">
+     <string>Reset Window</string>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>line</zorder>
+   <zorder>draw</zorder>
+   <zorder>reset</zorder>
+   <zorder>frame</zorder>
+   <zorder>show_axes</zorder>
+   <zorder>label</zorder>
+   <zorder>mouse_position</zorder>
+   <zorder>label_2</zorder>
+   <zorder>locked_position</zorder>
+   <zorder>set_p1</zorder>
+   <zorder>set_p2</zorder>
+   <zorder>p1_label</zorder>
+   <zorder>p2_label</zorder>
+   <zorder>unset_p2</zorder>
+   <zorder>unset_p1</zorder>
+   <zorder>label_3</zorder>
+   <zorder>drawCombo</zorder>
+   <zorder>type_label</zorder>
+   <zorder>timer_label_1</zorder>
+   <zorder>timer_label_2</zorder>
+   <zorder>color_box</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>grid_size</zorder>
+   <zorder>line_2</zorder>
+   <zorder>set_np</zorder>
+   <zorder>draw_2</zorder>
+   <zorder>drawCombo_2</zorder>
+   <zorder>draw_3</zorder>
+   <zorder>unset_np</zorder>
+   <zorder>transform_b</zorder>
+   <zorder>transform_m</zorder>
+   <zorder>scale_y</zorder>
+   <zorder>scale_x</zorder>
+   <zorder>clip_type</zorder>
+   <zorder>clipping</zorder>
+   <zorder>draw_window</zorder>
+   <zorder>window_point</zorder>
+   <zorder>line_3</zorder>
+   <zorder>line_4</zorder>
+   <zorder>unset_window</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
